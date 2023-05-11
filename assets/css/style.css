@@ -162,7 +162,7 @@ header ul li a:hover {
 }
 
 header ul li {
-    margin: 20px;
+    margin: 15px;
 }
 
 header ul li:not(:last-child) a {
