@@ -79,10 +79,12 @@
 .text_decoration {
     text-decoration: none;
 }
-.mw_524{
+
+.mw_524 {
     max-width: 524px;
 }
-.mw_72{
+
+.mw_72 {
     max-width: 72px;
 }
 
@@ -114,8 +116,20 @@
     font-size: 24px;
 }
 
-nav ul li a {
+.fc_black {
     color: black;
+}
+
+.fc_g {
+    color: #4D4813;
+}
+
+.mw_866 {
+    max-width: 866px;
+}
+
+.timeline_list ul {
+    padding: 0;
 }
 
 .fs_18 {
@@ -131,11 +145,12 @@ nav ul li a {
 }
 
 .fc_white {
-   
+
     color: #ffffff;
 }
-.fc_gray{
-   color: #000000;
+
+.fc_gray {
+    color: #000000;
 }
 
 .f_color {
@@ -146,12 +161,12 @@ header ul li a:hover {
     color: #F4241E;
 }
 
-/* header ul li {
+header ul li {
     margin: 20px;
-} */
+}
 
 header ul li:not(:last-child) a {
-    margin-right: 25px;
+    margin-right: 0%;
 }
 
 .connect_box {
@@ -161,7 +176,7 @@ header ul li:not(:last-child) a {
 }
 
 
-@media (max-width:992px) {
+@media (max-width:1128px) {
 
 
     div>a {
@@ -249,6 +264,7 @@ header ul li:not(:last-child) a {
     background-color: #F4241E;
     color: #ffffff;
     border: 1px #F4241E;
+    border-radius: 10px;
 }
 
 .my {
@@ -264,58 +280,9 @@ header ul li:not(:last-child) a {
     background-color: #FFF03F;
 }
 
-. {
-    margin-bottom: 50px;
-}
 
 .mb_26 {
     margin-bottom: 26px;
-}
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-@media (min-width:992px) {
-    .col-lg-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media (min-width: 768px) {
-    .col-md-4 {
-        width: 33.33%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media (min-width:578px) {
-    .col-sm-6 {
-        width: 50% !important;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media (min-width:992px) {
-    .col-lg-3 {
-        width: 25% !important;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media (min-width: 768px) {
-    .col-md-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
 }
 
 .mt_50 {
@@ -405,6 +372,65 @@ header ul li:not(:last-child) a {
     border-radius: 6px;
 }
 
+.accordion-button {
+    background: #FFF03F !important;
+    height: 75px !important;
+}
+
+.accordion {
+    border-color: #FFF03F !important;
+    --bs-accordion-bg: none !important;
+    --bs-accordion-active-color: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:578px) {
+    .col-sm-6 {
+        width: 50% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        width: 25% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .timeline::after {
@@ -426,23 +452,10 @@ header ul li:not(:last-child) a {
 
     .left::after,
     .right::after {
-        left: 15px;
+        left: 18px;
     }
 
     .right {
         left: 0%;
     }
 }
-.accordion-button {
-    background: #FFF03F !important;
-    height: 75px !important;
-}
-
-.accordion {
-    border-color: #FFF03F !important;
-    --bs-accordion-bg: none !important;
-    --bs-accordion-active-color: none !important;
-    --bs-accordion-border-color: none !important;
-    --bs-accordion-btn-focus-box-shadow:  none !important;
-}
-
