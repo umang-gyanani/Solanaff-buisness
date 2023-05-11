@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+.bg_yellow {
+    background-color: #F6E300;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.align_item_center {
+    align-items: center;
+}
+
+.justify_content_between {
+    justify-content: space-between;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.text_align {
+    text-align: center;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.py {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.py_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.f_poppin {
+    font-family: 'poppins', 'sans-serif';
+}
+
+.f_roboto {
+    font-family: 'roboto', 'sans-serif';
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+.mw_524{
+    max-width: 524px;
+}
+.mw_72{
+    max-width: 72px;
+}
+
+.f_w_600 {
+    font-weight: 600;
+}
+
+.f_w_700 {
+    font-weight: 700;
+}
+
+.f_w_500 {
+    font-weight: 500;
+}
+
+.f_w_400 {
+    font-weight: 400;
+}
+
+.fs_48 {
+    font-size: 48px;
+}
+
+.fs_20 {
+    font-size: 20px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.fs_18 {
+    font-size: 18px;
+}
+
+.fs_36 {
+    font-size: 36px;
+}
+
+.f_color {
+    color: #F4241E;
+}
+
+.fc_white {
+   
+    color: #ffffff;
+}
+.fc_gray{
+   color: #000000;
+}
+
+.f_color {
+    color: black;
+}
+
+header ul li a:hover {
+    color: #F4241E;
+}
+
+/* header ul li {
+    margin: 20px;
+} */
+
+header ul li:not(:last-child) a {
+    margin-right: 25px;
+}
+
+.connect_box {
+    background-color: #ffffff;
+    padding: 12px 32px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:992px) {
+
+
+    div>a {
+        font-size: 28px !important;
+    }
+
+
+    input[type="checkbox"]:checked~ul.small_screen {
+        opacity: 1;
+        pointer-events: all;
+        left: 0;
+    }
+
+
+    .small_screen {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        background-color: #F6E300;
+        transition: all.3s linear;
+
+    }
+
+
+    label[for="menu_box"]>span {
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    label[for="menu_box"] {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+}
+
+.bg_image {
+    background-image: url(../images/png/burgers.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.back_ground_img {
+    background-image: url(../images/png/timlineburger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flex_coln {
+    flex-direction: column;
+}
+
+
+.mw-806 {
+    max-width: 806px;
+}
+
+.mw-345 {
+    max-width: 345px;
+}
+
+.mw_591 {
+    max-width: 591px;
+}
+
+.dis_buttn {
+    padding: 15px 32px;
+    background-color: #F4241E;
+    color: #ffffff;
+    border: 1px #F4241E;
+}
+
+.my {
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+
+.mt_27 {
+    margin-top: 27px;
+}
+
+.bg_color {
+    background-color: #FFF03F;
+}
+
+. {
+    margin-bottom: 50px;
+}
+
+.mb_26 {
+    margin-bottom: 26px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:578px) {
+    .col-sm-6 {
+        width: 50% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        width: 25% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.mb_27 {
+    margin-bottom: 27px;
+}
+
+.bg_color_red {
+    background-color: #F4241E;
+}
+
+.pt_29 {
+    padding-top: 29px;
+}
+
+.py_48 {
+    padding-top: 48px;
+    padding-bottom: 38px;
+}
+
+.my_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    background-color: #F4241E;
+    top: 17px;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline_container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline_container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+
+.right::after {
+    left: -12px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline_container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline_container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+.accordion-button {
+    background: #FFF03F !important;
+    height: 75px !important;
+}
+
+.accordion {
+    border-color: #FFF03F !important;
+    --bs-accordion-bg: none !important;
+    --bs-accordion-active-color: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow:  none !important;
+}
+
