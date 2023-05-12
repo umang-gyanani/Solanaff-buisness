@@ -280,6 +280,9 @@ header ul li:not(:last-child) a {
     background-color: #FFF03F;
 }
 
+.mw_992 {
+    max-width: 992px;
+}
 
 .mb_26 {
     margin-bottom: 26px;
@@ -375,6 +378,8 @@ header ul li:not(:last-child) a {
 .accordion-button {
     background: #FFF03F !important;
     height: 75px !important;
+    max-width: 866px;
+    margin: auto;
 }
 
 .accordion {
